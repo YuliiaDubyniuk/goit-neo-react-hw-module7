@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  padding: 7px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.fieldWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.formInput {
+  outline: none;
+  border-radius: 3px;
+}
+
+.formInput:hover,
+.formInput:focus,
+.addBtn:hover,
+.addBtn:focus {
+  border: 2px solid blue;
+}
+
+.addBtn {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+span {
+  color: red;
+  margin-top: 4px;
+  font-size: 12px;
+}

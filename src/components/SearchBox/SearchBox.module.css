@@ -1,0 +1,17 @@
+.searchWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  max-width: 316px;
+  margin-bottom: 25px;
+}
+
+.search {
+  border-radius: 3px;
+  outline: none;
+}
+
+.search:hover,
+.search:focus {
+  border-color: blue;
+}

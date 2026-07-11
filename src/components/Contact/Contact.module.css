@@ -1,0 +1,29 @@
+.cardItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: calc((100% - 30px) / 4);
+}
+
+.wrap {
+  display: flex;
+  gap: 5px;
+}
+
+.wrap:first-child {
+  margin-bottom: 5px;
+}
+
+.btn {
+  max-width: fit-content;
+  padding: 4px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+  border-color: blue;
+}
